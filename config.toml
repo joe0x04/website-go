@@ -1,0 +1,17 @@
+[http]
+enabled = true
+port = 8087
+ip = "127.0.0.1"
+
+[https]
+enabled = false
+port = 9087
+ip = "127.0.0.1"
+certificate = "/path/to/cert.crt"
+privatekey = "/path/to/priv.pem"
+
+[database]
+type = "sqlite"
+file = "website.db"
+
+
